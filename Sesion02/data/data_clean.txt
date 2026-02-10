@@ -1,0 +1,15 @@
+Name, Age, City
+JUAN, 25, Lima
+LUIS, 45, Cusco
+SOFIA, 22, Lima
+PEDRO, 19, Piura
+LUCIA, 18, Chiclayo
+MIGUEL, 52, Lima
+ROSA, 27, Arequipa
+ELENA, 33, Trujillo
+DIEGO, 29, Lima
+ANDRES, 40, Piura
+RICARDO, 38, Arequipa
+CAMILA, 23, Chiclayo
+FERNANDO, 50, Lima
+GABRIELA, 20, Cusco
