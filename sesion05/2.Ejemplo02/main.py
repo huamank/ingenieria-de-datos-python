@@ -35,3 +35,9 @@ def create_customer(payload: CustomerCreate, db: Session = Depends(get_db)):
     db.refresh(customer) # podemos obtener el id generado
 
     return customer
+
+# listar clientes
+
+@app.get("/customers", response_model=list[CustomerOut])
+def list_customers(db: Session = Depends(get_db)):
+    return db.query(Customer).order_by(Customer.id).all()
