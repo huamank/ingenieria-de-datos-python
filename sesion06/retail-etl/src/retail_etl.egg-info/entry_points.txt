@@ -1,0 +1,2 @@
+[console_scripts]
+retail-etl = retail_etl.main:main
